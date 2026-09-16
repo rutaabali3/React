@@ -254,8 +254,10 @@
 import { BrowserRouter , Route , Routes} from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Contact from "./pages/Contact";
+import Services from "./pages/Services";
 import About from "./pages/About";
 import Home from "./pages/Home";
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -265,7 +267,9 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/About' element={<About/>}/>
       <Route path='/Contact' element={<Contact/>}/>
+      <Route path='/Services' element={<Services/>}/>
     </Routes>
+    <Footer/>
     </BrowserRouter>
   );
 }

@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 
-function Navbar(){
+function Footer(){
 return(
     <nav>
-        <h2>My React Website</h2>
+        <h2>Footer</h2>
 
         <Link to={'/'}>Home</Link>
         {'|'}
@@ -20,4 +20,4 @@ return(
 );
 }
 
-export default Navbar;
+export default Footer;
