@@ -251,27 +251,17 @@
 
 // export default App;      
 
-import { BrowserRouter , Route , Routes} from "react-router-dom";
-import Navbar from "./Components/Navbar";
-import Contact from "./pages/Contact";
-import Services from "./pages/Services";
-import About from "./pages/About";
-import Home from "./pages/Home";
-import Footer from "./Components/footer";
+import StyleCard from "./Components/StyleCard";
 
 function App() {
   return (
-    <BrowserRouter>
-    <Navbar/>
-    <Routes>
-      <Route path='/' element={<Home/>}/>
-      <Route path='/About' element={<About/>}/>
-      <Route path='/Contact' element={<Contact/>}/>
-      <Route path='/Services' element={<Services/>}/>
-    </Routes>
-    <Footer/>
-    </BrowserRouter>
+    <div>
+      <h1>Styled Card Example</h1>
+
+      <StyleCard title="Inline title" description="Inline Description" />
+    </div>
   );
 }
 
 export default App;
+
