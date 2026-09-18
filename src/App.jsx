@@ -251,17 +251,39 @@
 
 // export default App;      
 
-import StyleCard from "./Components/StyleCard";
+// import StyleCard from "./Components/StyleCard";
 
-function App() {
-  return (
-    <div>
-      <h1>Styled Card Example</h1>
+// function App() {
+//   return (
+//     <div>
+//       <h1>Styled Card Example</h1>
 
-      <StyleCard title="Inline title" description="Inline Description" />
-    </div>
-  );
+//       <StyleCard title="Inline title" description="Inline Description" />
+//     </div>
+//   );
+// }
+
+// export default App;
+
+
+// For infobox
+import InfoBox from "./Components/InfoBox";
+function App(){
+    return(
+        <div>
+            <h1>React CSS Modules Example</h1>
+
+            <InfoBox
+                title="CSS Module"
+                message="This component is styles using CSS Modules"
+            />
+            <InfoBox
+                title="Scoped Styling"
+                message="This styles only apply to this compo"
+            />
+        </div>
+    )
 }
 
-export default App;
+export default App
 

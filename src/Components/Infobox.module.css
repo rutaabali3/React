@@ -1,0 +1,17 @@
+/* This CSS file is a module, It only applies to the InfoBox Component */
+
+.container{
+    background-color: aquamarine;
+    border-left: 5px solid #f0a500;
+}
+
+.title{
+    color: #7a5200;
+    font-size: 15px;
+    
+}
+
+.text{
+    color: #333333;
+    font-size: 15px;
+}
